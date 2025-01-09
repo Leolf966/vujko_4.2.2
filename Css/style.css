@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     color: #fff;
@@ -207,6 +211,11 @@ header {
     text-align: center;
 }
 
+.read-more-btn {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
 
 /* fast-start */ 
 
@@ -416,19 +425,14 @@ header {
     text-align: center;
 }
 
-.subtitle-5 {
-    font-size: 56px;
-    font-weight: 700;
-    font-family: "Helvetica", sans-serif;
-    margin: 60px 0px;
 
-}
 
 .graph {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
+    
 }
 
 .graph-1 {

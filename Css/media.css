@@ -1,0 +1,388 @@
+@media (max-width: 768px) {
+
+    .navbar .container {
+        text-align: center;
+        flex-direction: column;
+        padding-top: 15px;
+        margin: 0;
+    }
+
+    
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .navbar li {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar li a {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main-img {
+        max-width: 100%;
+        min-width: auto;
+        height: auto;
+    }
+
+    .sub-img {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .picture-style-sub {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+    }
+     
+    .btn-buy-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 40px;
+    }
+
+    .buy-btn {
+        width: 140px;
+        height: 40px;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+
+    .btn {
+        flex-direction: column;
+        gap:0;
+        top: 40px;
+    }
+
+    .buy-txt {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .text-about {
+        justify-content: center;
+        align-items: center;
+    } 
+    
+    .text-about .title {
+        font-size: 28px;
+    }
+
+    .text-about .subtitle {
+        font-size: 18px;
+        margin:0;
+    }
+
+  
+#full-text {
+    max-height: 100px; 
+    overflow: hidden;   
+    opacity: 1;      
+    transition: opacity 0.5s ease, max-height 0.5s ease; 
+    text-indent: 0;
+}
+
+#full-text.expanded {
+    opacity: 1;         
+    max-height: 2000px; 
+}
+    
+    .left-side, .right-side {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    
+
+   
+
+    .main-text {
+        margin: 0 auto; 
+        width: 100%; 
+        padding: 0; 
+        box-sizing: border-box;
+        
+    }
+
+    .main-text .text {
+        overflow: hidden;
+        max-height: 6em; 
+        line-height: 1.6;
+        font-size: 14px;
+        text-align: center;
+        transition: max-height 0.3s ease;
+    }
+
+    .main-text .text.expanded {
+        max-height: none; 
+    }
+
+    .read-more-btn {
+        display: block;
+        margin: 20px auto 40px;
+        background-color: #27a551;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .line {
+        width: 350px;
+        margin: 0;
+    }
+
+  
+
+    /* fast start */
+
+    .fast-start {
+        margin: 50px 0;
+    }
+
+    .fast-start .sides {
+        flex-direction: column;
+        margin:0px;
+    }
+
+    .title-2 {
+        font-size: 28px;
+        text-align: center;
+        margin-left: 10px;
+        
+    }
+
+    .text-2, .subtext-2 {
+        margin: 0 auto; 
+        width: 100%; 
+        padding: 0 10px; 
+        box-sizing: border-box;
+        text-indent: 0;
+        font-size: 14px;
+        text-indent: 50px;
+    }
+
+    
+
+    .right-img {
+        margin-top: 30px;
+
+    }
+
+    .launch-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .start-img {
+        width: 90%;
+        height: auto;
+    }
+
+    .btn-pdf-start a {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    /* advantages */
+
+    .advantages {
+        padding: 20px;
+    }
+
+    .text-3 .title-3 {
+        font-size: 28px;
+    }
+
+    .container, .containers-3-1 {
+        display: flex;
+        flex-direction: column; 
+        gap: 35px;
+        margin-top: 20px;
+    }
+
+    .container {
+        margin-bottom: 35px;
+    }
+
+    .block-1 {
+        flex: 1 1 100%; 
+        padding: 15px;
+    }
+
+    .text-3-1 {
+        font-size: 18px; 
+    }
+
+    .subtext-3-1 {
+        font-size: 14px; 
+    }
+
+
+    /* conditions */
+
+    .title-4 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .conditions .sides {
+        display: block;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .conditions .left-side, .right-side {
+        flex: 1 1 100%;
+        max-width: 100%;
+        
+    }
+
+    .conditions .left-side {
+        margin-bottom: 40px;
+    }
+
+    .title-side-1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .subtitle-side-1 {
+        font-size: 14px;
+    }
+
+    .info-img {
+        gap: 15px;
+    }
+
+    .img-pay {
+        width: 40%;
+    }
+
+
+    /* security */
+    
+    .line-romb {
+        display: none;
+    }
+
+    .graph {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* table-char*/
+
+    .characteristics {
+        display: block;
+        padding: 0 10px; 
+        
+    }
+    
+    .data-table {
+        width: 100%;
+        margin: 40px 0; 
+        overflow-x: auto; 
+        border-collapse: collapse; 
+    }
+    
+    .data-table th, .data-table td {
+        font-size: 14px; 
+        padding: 10px; 
+        text-align: left; 
+        word-break: break-word; 
+    }
+    
+    .data-table th.center-text {
+        text-align: center;
+        font-size: 16px; 
+    }
+    
+    .text-3-2 {
+        font-size: 30px; 
+        text-align: center;
+        
+    }
+
+    /* contacts */
+
+    .contacts .text-3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+   .sides-contact {
+        display: block; 
+        text-align: center;
+    }
+
+
+    .left-side-con, .right-side-con {
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .text-6  {
+        font-size: 18px;
+    }
+
+    .contact-img {
+        margin: 20px auto; 
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .read-more-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 380px) {
+    .graph {
+        margin-left: 20px; 
+    }
+}
+
+@media (min-width: 390px) and (max-width: 400px) {
+    .graph {
+        margin-left: 30px;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 500px) {
+    .graph {
+        margin-left: 40px; 
+    }
+}
+
+
+
+
+
+
+
