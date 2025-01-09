@@ -68,6 +68,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 25px;
 }
 
 .title {
@@ -218,6 +219,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 90px;
+    align-items: stretch;
 }
 
 .title-2 {
@@ -359,6 +361,7 @@ header {
     padding: 50px 0 100px ;
 }
 
+
 .title-4 {
     display: flex;
     align-items: center;
@@ -380,6 +383,20 @@ header {
     line-height: 2.5;
     
 }
+
+.info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    margin-top: 50px;
+}
+
+.img-pay {
+    width: 180px;
+    height: auto;
+}
+
 
 /* security */
 
@@ -518,9 +535,10 @@ header {
 }
 
 .text-6 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Roboto Mono", sans-serif;
-    line-height: 2.5;
+    line-height: 2.6;
+
 }
 
 .center-side {
